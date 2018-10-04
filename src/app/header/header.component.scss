@@ -1,14 +1,43 @@
 #header {
-  background-color: #20272a;
+  background: url('../../assets/img/abstract-atmospheric-.jpg');
   box-sizing: border-box;
   display: block;
   padding: 0;
-  height: 70px;
-  box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9997;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+  text-transform: uppercase;
+  text-shadow: 1px 0 9vh hsla(0,0%,100%,1);
+  color: #cbede5;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+  //color: white;
+  font-weight: 100;
+}
+
+#logo {
+  letter-spacing: 1px;
+  font-size: 3em;
+  padding: 30px
+}
+
+#logo-description {
+  text-transform: lowercase;
+  font-size: 0.3em !important;
+}
+
+#auth-buttons {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#login-button {
+  padding-right: 20px;
 }

@@ -7,7 +7,6 @@ import {ApiService} from './api.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
 
   constructor(private apiService: ApiService) {
     // this.apiService.getCurrentUserDetails().subscribe(response => {
