@@ -24,7 +24,8 @@
 #logo {
   letter-spacing: 1px;
   font-size: 3em;
-  padding: 30px
+  padding: 30px;
+  cursor:pointer;
 }
 
 #logo-description {
@@ -40,4 +41,11 @@
 
 #login-button {
   padding-right: 20px;
+  cursor: pointer;
+}
+.content-box {
+  padding-top: 90px;
+  @media (max-width: 600px) {
+    padding-top: 190px;
+  }
 }

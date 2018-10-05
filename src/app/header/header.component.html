@@ -1,12 +1,19 @@
 <div id="header">
   <div class="logo-box">
-    <div id="logo">Hyrax
+    <div id="logo" (click)="navigateToWelcomePage()">Hyrax
       <div id="logo-description">is a visual project management application
         that focuses on the agile software development methodology</div>
     </div>
     <span id="auth-buttons">
-      <div id="login-button">Log in</div>
+      <div id="login-button" (click)="navigateToLoginPage()">Log in</div>
       <div>Sign up</div>
     </span>
   </div>
 </div>
+
+<div class="card clearfix content-box">
+<p style="color: white; font-size:50px">Welcome to Hyrax</p>
+<p>easy-to-use project manager tool</p>
+<a>About Hyrax</a>
+</div>
+
