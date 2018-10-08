@@ -2,9 +2,15 @@
 * {
   font-family: 'Montserrat', sans-serif;
 
-
 }
+
 body {
   background: url('assets/img/abstract-atmospheric-opacity2.jpg');
 }
 
+.button-background {
+  background: linear-gradient(217deg, rgba(0, 255, 78, 0.7), rgba(255, 0, 0, 0) 70.71%),
+  linear-gradient(127deg, rgba(0, 255, 0, 0.64), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, #042cef, rgba(0, 0, 255, 0) 70.71%);
+  border:0px !important;
+}

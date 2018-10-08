@@ -26,8 +26,12 @@
   font-size: 3em;
   padding: 30px;
   cursor:pointer;
-}
 
+}
+#logo:hover {
+  text-shadow: 0px 0px 15px white;
+
+}
 #logo-description {
   text-transform: lowercase;
   font-size: 0.3em !important;
@@ -41,11 +45,16 @@
 
 #login-button {
   padding-right: 20px;
-  cursor: pointer;
 }
-.content-box {
-  padding-top: 90px;
-  @media (max-width: 600px) {
-    padding-top: 190px;
-  }
+
+#login-button:hover {
+  text-shadow: 0px 0px 15px white;
+  cursor: pointer;
+
+}
+
+#sign-up-button:hover {
+  text-shadow: 0px 0px 15px white;
+  cursor: pointer;
+
 }

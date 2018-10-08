@@ -11,6 +11,8 @@ import {AppRoutingModule} from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import {ButtonModule} from 'primeng/button';
+import {InputTextModule} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ButtonModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]

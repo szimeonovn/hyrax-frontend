@@ -22,4 +22,7 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['/']);
   }
 
+  public navigateToReagisterPage(): void {
+    this.router.navigate(['/register']);
+  }
 }

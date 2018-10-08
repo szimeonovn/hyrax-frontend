@@ -1,5 +1,9 @@
 .content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 90px;
+  color:white;
   @media (max-width: 600px) {
     padding-top: 190px;
   }
