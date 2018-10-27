@@ -5,9 +5,9 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-  ACCOUNT_MODULE_URL = 'http://localhost:8081';
-  PROJECT_MODULE_URL = 'http://localhost:8082';
-  EMAIL_MODULE_URL = 'http://localhost:8083';
+  ACCOUNT_MODULE_URL = 'http://localhost:8081/hyrax/api';
+  PROJECT_MODULE_URL = 'http://localhost:8082/hyrax/api';
+  EMAIL_MODULE_URL = 'http://localhost:8083/hyrax/api';
 
 
   constructor(private httpClient: HttpClient) {

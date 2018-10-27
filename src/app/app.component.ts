@@ -9,12 +9,16 @@ import {ApiService} from './api.service';
 export class AppComponent {
 
   constructor(private apiService: ApiService) {
-    // this.apiService.getCurrentUserDetails().subscribe(response => {
-    //   console.log(response);
-    // });
-    //
-    // this.apiService.listAllBoardsOfUser().subscribe(response => {
-    //   console.log(response);
-    // });
+    this.apiService.getCurrentUserDetails().subscribe(response => {
+      console.log(response);
+    });
+
+    this.apiService.listAllBoardsOfUser().subscribe(response => {
+      console.log(response);
+    });
+
+    this.apiService.addAccounts('').subscribe(response => {
+      console.log(response);
+    });
   }
 }
